@@ -1,0 +1,6 @@
+node_modules
+.env
+backend
+.vscodes
+.git
+.commitlintrc.json
