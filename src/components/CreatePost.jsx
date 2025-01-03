@@ -2,7 +2,6 @@ import React from 'react';
 import { useMutation, useQueryClient } from '@tanstack/react-query'
 import { useState } from 'react'
 import { createPost } from '../api/posts.js'
-import { Field, Fieldset, Input, Label, Legend, Select, Textarea } from '@headlessui/react'
 import {  ToastContainer,toast } from 'react-toastify'
 import "../index.css"
 import clsx from 'clsx'
