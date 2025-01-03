@@ -4,7 +4,7 @@ import { useState } from 'react'
 import { createPost } from '../api/posts.js'
 import {  ToastContainer,toast } from 'react-toastify'
 import "../index.css"
-import clsx from 'clsx'
+
 
 export function CreatePost() {
   const [title, setTitle] = useState('')
