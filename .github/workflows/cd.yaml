@@ -31,8 +31,8 @@ jobs:
         name: Deploy backend
         uses: google-github-actions/deploy-cloudrun@v1
         with:
-          service: blog-backend
-          image: ${{ secrets.DOCKERHUB_USERNAME }}/blog-backend:latest
+          service: blog-backend2
+          image: ${{ secrets.DOCKERHUB_USERNAME }}/blog-backend2:latest
           region: ${{ secrets.GOOGLECLOUD_REGION }}
       - name: Build and push frontend image
         uses: docker/build-push-action@v4
